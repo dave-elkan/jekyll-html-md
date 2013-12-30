@@ -1,0 +1,23 @@
+{
+  "name": "jekyll-html-md",
+  "version": "0.0.1",
+  "description": "A small script to help converting jekyll import html files to markdowm",
+  "main": "index.js",
+  "keywords": [
+    "jekyll",
+    "convert",
+    "posts",
+    "html",
+    "to",
+    "markdown"
+  ],
+  "repository": "git://github.com/dave-elkan/jekyll-html-md",
+  "author": "Dave Elkan <dave@edave.net> (http://www.edave.net)",
+  "license": "Apache 2.0",
+  "dependencies": {
+    "html-md": "~3.0.2"
+  },
+  "bin": {
+    "jekyll-html-md": "index.js"
+  }
+}
