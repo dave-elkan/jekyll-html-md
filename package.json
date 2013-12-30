@@ -12,6 +12,7 @@
     "markdown"
   ],
   "repository": "git://github.com/dave-elkan/jekyll-html-md",
+  "homepage": "https://github.com/dave-elkan/jekyll-html-md",
   "author": "Dave Elkan <dave@edave.net> (http://www.edave.net)",
   "license": "Apache 2.0",
   "dependencies": {
