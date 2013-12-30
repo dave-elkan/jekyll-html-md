@@ -3,8 +3,8 @@
 var fs = require('fs');
 var path = require('path');
 var htmlmd = require('html-md');
-var postsDir = path.join(process.cwd(), "app", "_posts");
-var backupDir = path.join(process.cwd(), "app", "_posts_html");
+var postsDir = path.join(process.cwd(), "_posts");
+var backupDir = path.join(process.cwd(), "_posts_html");
 var files = fs.readdirSync(postsDir);
 
 if (!fs.existsSync(backupDir)) {
